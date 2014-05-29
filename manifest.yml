@@ -1,9 +1,9 @@
 ---
 applications:
-- name: spring-music
+- name: spring-music-vcc
   memory: 512M
   instances: 1
-  host: spring-music-${random-word}
+  host: spring-music-vcc
   domain: cfapps.io
   path: build/libs/spring-music.war
 
